@@ -1,0 +1,40 @@
+<!-- Page Content -->
+<div class="container">
+
+  <!-- Hello Section -->
+  <div class="row">
+      <div class="col-lg-12">
+          <h1 class="page-header">Kodowanie Huffmana</h2>
+      </div>
+      <div class="col-md-12">
+        <p>
+           Kody Huffmana to jedna z powszechnie stosowanych metod kompresji danych. Metoda ta jest oparta o strategię zachłanną.
+           Kompresja ta polega na zastępowaniu znaków kompresowanego pliku krótszymi kodami (a ściślej ciągami bitów),
+           dzięki czemu wynikowy ciąg bitów jest znacznie krótszy od wejściowego. Jak wiadomo znaki są kodowane na 8 bitach,
+           dzięki czemu można zakodować aż do 256 znaków (kody ASCII od 0 do 255). Bardzo rzadko się jednak zdarza,
+           by w pliku występowały wszystkie znaki ASCII, wobec tego można wykorzystać mniej bitów i przez to zaoszczędzić
+           dużo miejsca.
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <br/><br/>
+        <p>Podaj tekst do zakodowania:</p>
+        <%= form_tag "huffman#index" do %>
+          <%= text_field_tag(:text_to_code) %>
+          <%= hidden_field_tag :authenticity_token, form_authenticity_token %></br>
+          <%= submit_tag "Koduj" %>
+        <% end %>
+      </div>
+
+      <div class="col-md-4">
+        <br/><br/>
+        <p>Zakodowany tekst:</p>
+        <input type="text" value="<%= @code %>"/>
+      </div>
+  </div>
+    <!-- /.row -->
+
+
+    <hr>
+</div>

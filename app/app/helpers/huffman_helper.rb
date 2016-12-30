@@ -1,0 +1,2 @@
+module HuffmanHelper
+end
