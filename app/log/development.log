@@ -12627,3 +12627,17 @@ Processing by HeapsortController#index as HTML
 Completed 200 OK in 47ms (Views: 46.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-01-08 21:22:13 +0100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 272ms (Views: 265.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/huffman" for 127.0.0.1 at 2017-01-08 21:22:16 +0100
+Processing by HuffmanController#index as HTML
+  Rendering huffman/index.html.erb within layouts/application
+  Rendered huffman/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 57ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+

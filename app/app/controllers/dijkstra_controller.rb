@@ -35,7 +35,7 @@ class DijkstraController < ApplicationController
     #     graph.make_edge 4, 5, 9
     #     graph.make_edge 5, 6, 9
 
-      returnarr = graph.dijkstra(1).to_s.split(/,/).map(&:to_i)
+      returnarr = graph.dijkstra(1).to_s.split(' :',2)
         @code = returnarr
 
       #   1,2,7,1,3,9,1,6,14,2,3,10,2,4,15,3,4,2,3,6,2,4,5,9,5,6,9

@@ -8,5 +8,5 @@ Na stornie użytkownik może zapoznać się i przetestować online działania al
 
 Adres Strony : 
 
-algorytmapp.herokuapp.com
+[rubyonrailsproject.herokuapp.com](http://rubyonrailsproject.herokuapp.com)
 
