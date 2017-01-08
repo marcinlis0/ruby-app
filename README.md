@@ -6,7 +6,7 @@ Na stornie użytkownik może zapoznać się i przetestować online działania al
 -Sortowanie przez Kopcowanie
 -Algorytm Dijkstry
 
-Adres Strony : 
+Adres Strony : [rubyonrailsproject.herokuapp.com](http://rubyonrailsproject.herokuapp.com)
 
-[rubyonrailsproject.herokuapp.com](http://rubyonrailsproject.herokuapp.com)
+aby odpalić projekt lokalnie 'sudo bundle install' i 'sudo rails server --port=3000'
 
