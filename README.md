@@ -1,9 +1,12 @@
-Strona interetowa stworzona przy użyciu technologii ruby on rails. Na stornie użytkownik może zapoznać się i przetestować online działania algorytmów takich jak :
 
-    Kodowanie Huffmana
-    Sortowanie przez Kopcowanie
-    Algorytm Dijkstry
+Strona interetowa stworzona przy użyciu technologii ruby on rails.
+Na stornie użytkownik może zapoznać się i przetestować online działania algorytmów takich jak :
 
-Adres Strony :
+-Kodowanie Huffmana
+-Sortowanie przez Kopcowanie
+-Algorytm Dijkstry
 
-[rubyonrailsproject.herokuapp.com](http://rubyonrailsproject.herokuapp.com)
+Adres Strony : 
+
+algorytmapp.herokuapp.com
+
