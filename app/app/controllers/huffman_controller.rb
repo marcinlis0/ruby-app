@@ -11,11 +11,6 @@ class HuffmanController < ApplicationController
 
   end
 
-  def xd
-    x = 10
-
-  end
-
   class Node
   def initialize(args)
     if args.size.zero?

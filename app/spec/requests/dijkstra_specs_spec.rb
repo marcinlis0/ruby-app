@@ -4,10 +4,7 @@ require 'dijkstra_controller.rb'
   RSpec.describe 'dijkstra_controller.rb' do
     describe '#dijkstra_controller' do
 
-      it '#index is defined' do
-        temp = DijkstraController.new
-        expect { temp.index }.not_to raise_error
-      end
+    
 
     it 'Edge should be initialized' do
          expect { DijkstraController::Edge.new(1, 1, 1) }.not_to raise_error

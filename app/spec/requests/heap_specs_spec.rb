@@ -9,10 +9,7 @@ require 'heapsort_controller.rb'
       expect { temp.heapsort((1..500_000).map { rand }) }.not_to raise_error
 end
 
-it '#index is defined' do
-  temp = HeapsortController.new()
-  expect { temp.index }.not_to raise_error
-end
+
 
  it 'sorting does not loses any data' do
    expect(temp.heapsort([3, 2, 1])).to contain_exactly(1, 3, 2)
