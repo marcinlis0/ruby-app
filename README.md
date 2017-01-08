@@ -6,4 +6,4 @@ Strona interetowa stworzona przy użyciu technologii ruby on rails. Na stornie u
 
 Adres Strony :
 
-rubyonrailsproject.herokuapp.com
+[link](http://rubyonrailsproject.herokuapp.com)
