@@ -1,0 +1,39 @@
+
+<!-- Page Content -->
+<div class="container">
+
+  <!-- Hello Section -->
+  <div class="row">
+      <div class="col-lg-12">
+          <h1 class="page-header">Sortowanie przez kopcowanie</h2>
+      </div>
+      <div class="col-md-12">
+        <p>Podstawą algorytmu jest użycie kolejki priorytetowej zaimplementowanej w postaci binarnego kopca zupełnego.
+          Zasadniczą zaletą kopców jest stały czas dostępu do elementu maksymalnego (lub minimalnego) oraz logarytmiczny czas wstawiania i usuwania elementów;
+          ponadto łatwo można go implementować w postaci tablicy.
+          Algorytm sortowania przez kopcowanie składa się z dwóch faz.
+          W pierwszej sortowane elementy reorganizowane są w celu utworzenia kopca.
+          W drugiej zaś dokonywane jest właściwe sortowanie.</p>
+      </div>
+
+      <div class="col-md-4">
+        <br/><br/>
+        <p>Podaj tekst do sortowania:</p>
+        <%= form_tag "heapsort#index" do %>
+          <%= text_field_tag(:text_to_sort) %>
+          <%= hidden_field_tag :authenticity_token, form_authenticity_token %></br>
+          <%= submit_tag "Sortuj" %>
+        <% end %>
+      </div>
+
+      <div class="col-md-4">
+        <br/><br/>
+        <p>Posortowany tekst:</p>
+        <input type="text" value="<%= @sorted %>"/>
+      </div>
+  </div>
+    <!-- /.row -->
+
+
+    <hr>
+</div>
