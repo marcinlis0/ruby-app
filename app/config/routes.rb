@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'dijkstra/index'
+  #get 'dijkstra/index'
 
   # get 'heapsort/index'
 
@@ -13,6 +13,10 @@ Rails.application.routes.draw do
   get 'heapsort', to: 'heapsort#index'
 
   post 'heapsort', to: 'heapsort#index'
+
+  get 'dijkstra', to: 'dijkstra#index'
+
+  post 'dijkstra', to: 'dijkstra#index'
 
 
 

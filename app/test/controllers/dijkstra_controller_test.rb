@@ -1,4 +1,5 @@
-require 'test_helper'
+require 'rails_helper'
+require 'spec_helper'
 
 class DijkstraControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do

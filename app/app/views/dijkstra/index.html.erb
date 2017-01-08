@@ -1,2 +1,40 @@
-<h1>Dijkstra#index</h1>
-<p>Find me in app/views/dijkstra/index.html.erb</p>
+<!-- Page Content -->
+<div class="container">
+
+  <!-- Hello Section -->
+  <div class="row">
+      <div class="col-lg-12">
+          <h1 class="page-header">Algorytm Dijkstry</h2>
+      </div>
+      <div class="col-md-12">
+        <p>
+            Mając dany graf z wyróżnionym wierzchołkiem (źródłem) algorytm znajduje odległości
+            od źródła do wszystkich pozostałych wierzchołków. Łatwo zmodyfikować go tak, aby szukał wyłącznie
+            (najkrótszej) ścieżki do jednego ustalonego wierzchołka, po prostu przerywając działanie w momencie
+            dojścia do wierzchołka docelowego, bądź transponując tablicę incydencji grafu.
+            Algorytm Dijkstry znajduje w grafie wszystkie najkrótsze ścieżki pomiędzy wybranym wierzchołkiem a
+            wszystkimi pozostałymi, przy okazji wyliczając również koszt przejścia każdej z tych ścieżek
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <br/><br/>
+        <p>Podaj dane w kolejnosci wierzchołek, wierzchołek waga:</p>
+        <%= form_tag "dijkstra#index" do %>
+          <%= text_field_tag(:text_of_nodes) %>
+          <%= hidden_field_tag :authenticity_token, form_authenticity_token %></br>
+          <%= submit_tag "Koduj" %>
+        <% end %>
+      </div>
+
+      <div class="col-md-4">
+        <br/><br/>
+        <p>Zakodowany tekst:</p>
+        <input type="text" value="<%= @code %>"/>
+      </div>
+  </div>
+    <!-- /.row -->
+
+
+    <hr>
+</div>

@@ -1,4 +1,5 @@
-require 'test_helper'
+require 'rails_helper'
+require 'spec_helper'
 
 class HuffmanControllerTest < ActionDispatch::IntegrationTest
       test 'Should be defined' do
