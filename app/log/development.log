@@ -10242,3 +10242,902 @@ Processing by HuffmanController#index as HTML
 Completed 200 OK in 75ms (Views: 73.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/huffman" for 127.0.0.1 at 2017-01-08 01:19:21 +0100
+Processing by HuffmanController#index as HTML
+  Rendering huffman/index.html.erb within layouts/application
+  Rendered huffman/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 128ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/huffman" for 127.0.0.1 at 2017-01-08 01:19:24 +0100
+Processing by HuffmanController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p5rS4FFn77QmjxtxrNakPjkPdHLjk5tljqYdWi86ki9cIqYbvWw1KGyG/qshB8o1+IN/JBOLB1DPF5eQW5ARTQ==", "text_to_code"=>"asd", "commit"=>"Koduj"}
+  Rendering huffman/index.html.erb within layouts/application
+  Rendered huffman/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/huffman" for 127.0.0.1 at 2017-01-08 01:57:44 +0100
+Processing by HuffmanController#index as HTML
+  Rendering huffman/index.html.erb within layouts/application
+  Rendered huffman/index.html.erb within layouts/application (34.6ms)
+Started GET "/" for 127.0.0.1 at 2017-01-08 01:57:50 +0100
+Completed 200 OK in 8878ms (Views: 8844.1ms | ActiveRecord: 0.0ms)
+
+
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 76ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/huffman" for 127.0.0.1 at 2017-01-08 01:58:32 +0100
+Processing by HuffmanController#index as HTML
+  Rendering huffman/index.html.erb within layouts/application
+  Rendered huffman/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 54ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/huffman" for 127.0.0.1 at 2017-01-08 01:58:39 +0100
+Processing by HuffmanController#index as HTML
+  Rendering huffman/index.html.erb within layouts/application
+  Rendered huffman/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 75ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/huffman" for 127.0.0.1 at 2017-01-08 01:58:44 +0100
+Processing by HuffmanController#index as HTML
+  Rendering huffman/index.html.erb within layouts/application
+  Rendered huffman/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 107ms (Views: 106.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-08 02:14:24 +0100
+Started GET "/huffman" for 127.0.0.1 at 2017-01-08 02:14:24 +0100
+Started GET "/" for 127.0.0.1 at 2017-01-08 02:15:04 +0100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 851ms (Views: 836.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:15:07 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 81ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:15:15 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ve3a7HqJ0h+l9syavEK65EfqA7iGyhSyGgfQ0Cw+3H5GVa4XloIIg+//KUAxk9TvhmYI7nbSiIdbtloaWJRfHA==", "text_to_sort"=>"2 34 5 6 2", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 192ms (Views: 190.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:15:26 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ep4xA+XlwJsxCuQYEmOHJeET4xoH/U3hkhQRyhNtXc2BJkX4Ce4aB3sDAcKfsukuIJ/oTPfl0dTTpZsAZ8ferw==", "text_to_sort"=>"asd ", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 138ms (Views: 131.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:17:16 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NG2W9yvfa8er9IMb6qzBkaqdySpjFRk774KqLqlmtrLP1eIMx9SxW+H9ZsFnfa+aaxHCfJMNhQ6uMyDk3cw10A==", "text_to_sort"=>"2 34 5 6 2", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 138ms (Views: 136.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-08 02:19:12 +0100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 461ms (Views: 445.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:19:15 +0100
+  
+SyntaxError (/home/pluszak/Desktop/ruby-app/app/app/controllers/heapsort_controller.rb:71: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/heapsort_controller.rb:71: syntax error, unexpected keyword_end, expecting end-of-input
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (46.1ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:20:41 +0100
+Processing by HeapsortController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `size' for nil:NilClass):
+  
+app/controllers/heapsort_controller.rb:13:in `heapsort'
+app/controllers/heapsort_controller.rb:7:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (10.8ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.2ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:23:31 +0100
+Processing by HeapsortController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `size' for nil:NilClass):
+  
+app/controllers/heapsort_controller.rb:14:in `heapsort'
+app/controllers/heapsort_controller.rb:7:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (62.2ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:23:48 +0100
+Processing by HeapsortController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `size' for nil:NilClass):
+  
+app/controllers/heapsort_controller.rb:14:in `heapsort'
+app/controllers/heapsort_controller.rb:7:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.9ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:23:51 +0100
+Processing by HeapsortController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `size' for nil:NilClass):
+  
+app/controllers/heapsort_controller.rb:14:in `heapsort'
+app/controllers/heapsort_controller.rb:7:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.4ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.4ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:24:40 +0100
+Processing by HeapsortController#index as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `get_size' for nil:NilClass):
+  
+app/controllers/heapsort_controller.rb:14:in `heapsort'
+app/controllers/heapsort_controller.rb:7:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.5ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:24:42 +0100
+Processing by HeapsortController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `get_size' for nil:NilClass):
+  
+app/controllers/heapsort_controller.rb:14:in `heapsort'
+app/controllers/heapsort_controller.rb:7:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.9ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:24:58 +0100
+Processing by HeapsortController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `size' for nil:NilClass):
+  
+app/controllers/heapsort_controller.rb:63:in `get_size'
+app/controllers/heapsort_controller.rb:14:in `heapsort'
+app/controllers/heapsort_controller.rb:7:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (16.0ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.9ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.1ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:28:10 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 92ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:29:32 +0100
+Processing by HeapsortController#index as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/heapsort_controller.rb:7:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.3ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.4ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:31:26 +0100
+Processing by HeapsortController#index as HTML
+Completed 500 Internal Server Error in 88ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `encrypt' for #<HeapsortController:0x007fc935235ef0>):
+  
+app/controllers/heapsort_controller.rb:12:in `get_code'
+app/controllers/heapsort_controller.rb:7:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (132.5ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:31:28 +0100
+Processing by HeapsortController#index as HTML
+Completed 500 Internal Server Error in 81ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `encrypt' for #<HeapsortController:0x00558a09d0de80>):
+  
+app/controllers/heapsort_controller.rb:12:in `get_code'
+app/controllers/heapsort_controller.rb:7:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.4ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (151.3ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:34:24 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 79ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:36:02 +0100
+Processing by HeapsortController#index as HTML
+Completed 500 Internal Server Error in 210ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `from_text_to_sort' for #<HeapsortController:0x00558a0971c0d0>
+Did you mean?  @from_text_to_sort):
+  
+app/controllers/heapsort_controller.rb:6:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.2ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (159.4ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:36:25 +0100
+Processing by HeapsortController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/heapsort_controller.rb:7:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.9ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (49.7ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:39:01 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 63ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:39:05 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Fqfc36FYrAP9qTOTaIOUKM+Z0geJMsoBPTqwGh/GawLtH6gkTVN2n7eg1knlUvojDhXZUXkqVjR8izrQa2zoYA==", "text_to_sort"=>"2 34 5 6 2", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:39:11 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Fu+nj2TLwfgu5rjBliZBJtPDGmE34I4T7K6PQlCqMZztV9N0iMAbZGTvXRsb9y8tEk8RN8f4EiatHwWIJACy/g==", "text_to_sort"=>"123", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 57ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:39:14 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Oc4gYyTgf3L4Bxxop1Nndqd2igY1pMoGRMwFVR8vJ1zCdlSYyOul7rIO+bIqggl9ZvqBUMW8VjMFfY+fa4WkPg==", "text_to_sort"=>"123", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:39:21 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rlJd4xuZlTFfGEzCyp3Ww6f0jZf3PwdhT2zZ9jCHcjlV6ikY95JPrRURqRhHTLjIZniGwQcnm1QO3VM8RC3xWw==", "text_to_sort"=>"1 34 5 6 3 4 2", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 52ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:39:48 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7N6kgB4YwKW5Qt5z5r+4ehxv9h8aVx9jkuWBr+YUOwIXZtB78hMaOfNLO6lrbtZx3eP9SepPg1bTVAtlkr64YA==", "text_to_sort"=>"123", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:39:54 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5c5g1Ky/YIjCw2hamUgHSQJ/96EZRuv2v8Ijz0U6CLwedhQvQLS6FIjKjYAUmWlCw/P89+led8P+c6kFMZCL3g==", "text_to_sort"=>"1 2 3 4 5", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:39:56 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UlJT0cB2vmRLxrSyTTKA0UO+ufy9j3KvCxToySGrGZSp6icqLH1k+AHPUWjA4+7agjKyqk2X7ppKpWIDVQGa9g==", "text_to_sort"=>"", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:39:57 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ehtr/30w16FlD6LWc1p3arkxNkVUnNzLQCpcpSdYbhWBox8EkTsNPS8GRwz+ixlheL09E6SEQP4Bm9ZvU/Ltdw==", "text_to_sort"=>"", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 60ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:40:04 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GtPdCY64B4KUDvttZYHGU/rn4aoCTFpN1QOQ1R3+vRzha6nyYrPdHt4HHrfoUKhYO2vq/PJUxniUshofaVQ+fg==", "text_to_sort"=>"2 4 2", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:42:00 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Df9m4WdO+yPQz64QBzmp6iOvMYeitmfCHBYakPZpE/b2RxIai0Uhv5rGS8qK6Mfh4iM60VKu+/ddp5BagsOQlA==", "text_to_sort"=>"10, 40, 3, 2, 1, 3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 68ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:42:13 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1+S+8dYvgyHGl6hKBObif7+4VBkIKPVonIn8iIiqEFksXMoKOiRZvYyeTZCJN4x0fjRfT/gwaV3dOHZC/ACTOw==", "text_to_sort"=>"10 40 3 2 1 3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 64ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:43:01 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 81ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:43:05 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PNiR084EADVsH6hoAZZsSYvsRiOIuERnurUK0koVclzHYOUoIg/aqSYWTbKMRwJCSmBNdXig2FL7BIAYPr/xPg==", "text_to_sort"=>"1 2 3 ", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:43:10 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QALcILLfSbmiDwB3p8wOiPjVSxdq5tmyB2FxCuhp8wu7uqjbXtSTJegG5a0qHWCDOVlAQZr+RYdG0PvAnMNwaQ==", "text_to_sort"=>"10, 40, 3, 2, 1, 3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 87ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:43:30 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9w7msreIUcC5qB5PNuUaDOReCXXse8ky+SjDQz336RwMtpJJW4OLXPOh+5W7NHQHJdICIxxjVQe4mUmJSV1qfg==", "text_to_sort"=>"10 40 3 21  3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:44:19 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:44:24 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/83rVv5JQ2YfVDGBu68kMwnR1EIZnNvJTRaBhwLhT1wEdZ+tEkKZ+lVd1Fs2fko4yF3fFOmER/wMpwtNdkvMPg==", "text_to_sort"=>"1,2,3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:44:34 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DoiakV8Jv3Vz6ZqqcFmRUfYJ0KphPxgUHRbuKOz5Ct/1MO5qswJl6Tngf3D9iP9aN4Xb/JEnhCFcp2TimFOJvQ==", "text_to_sort"=>"3,2,1,4,1", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 68ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:44:57 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DObh67viriY11TML/ehFwTB+oxPPz2l7VV0BlBWt6Gr3XpUQV+l0un/c1tFwOSvK8fKoRT/X9U4U7IteYQdrCA==", "text_to_sort"=>"\"3,2,1,4,1\"", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 79ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:46:22 +0100
+  
+SyntaxError (/home/pluszak/Desktop/ruby-app/app/app/controllers/heapsort_controller.rb:7: syntax error, unexpected &
+      arr.split(' ').map { &:to_i  }
+                            ^):
+  
+app/controllers/heapsort_controller.rb:7: syntax error, unexpected &
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.6ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (87.7ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:47:02 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 71ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:47:07 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T5uNH/eDicLFIEnG6f/pBDKNY1y9zgWmTQB4YdpPmp+0I/nkG4hTXo8prBxkLocP8wFoCk3WmZMMsfKrruUZ/Q==", "text_to_sort"=>"1 2 3 ", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 94ms (Views: 93.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:47:11 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SGzT6a7g3KrBd9BTDpIvgbSk/WAYKNa4zyN7+uYEnyWz1KcSQusGNot+NYmDQ0GKdSj2NugwSo2OkvEwkq4cRw==", "text_to_sort"=>"3 2 1", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:47:18 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XcR2AmlRQCWRv0siDIlFoFqeV8P/f9F03j5giLeFwIamfAL5hVqaudu2rviBWCurmxJclQ9nTUGfj+pCwy9D5A==", "text_to_sort"=>"10 20 30 ", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:47:39 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 56ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:47:47 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fF4aMJ1ty4IlxcfaU9IOBnFI68gTaYA32jvY/7OganmH5m7LcWYRHm/MIgDeA2ANsMTgnuNxHAKbilI1xwrpGw==", "text_to_sort"=>"1,2,3,4,5,6,1,2,2,2,3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 89ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:48:01 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 99ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:48:05 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S8L29U7ELeedU8rs2HFNi6zI0G1XySBmcA4nmxCqmQSweoIOos/3e9daLzZVoCOAbUTbO6fRvFMxv61RZAAaZg==", "text_to_sort"=>"123123141452534625", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 54ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:48:16 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ok0tdY4YYhbeD0eE+8gIx2lbQ/T1ajg3CqTOD4X4TbtZ9VmOYhO4ipQGol52GWbMqNdIogVypAJLFUTF8VLO2Q==", "text_to_sort"=>"123 123111 111 122 22", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 70ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:48:18 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WIGf7BwceW0dfO8rGgMRN0iF1PYtabUEBjx8Ut22NdCjOesX8Bej8Vd1CvGX0n88iQnfoN1xKTFHjfaYqRy2sg==", "text_to_sort"=>"", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:48:29 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eSoBt4oITSM/fXvVeyEF8rqslvsmTJPwN8y1xWXcZ/WCknVMZgOXv3V0ng/28Gv5eyCdrdZUD8V2fT8PEXbklw==", "text_to_sort"=>"213 11 223 221 11", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 97ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:49:21 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"17spSm1E10Bcx6sawmB4QANnYQt4EOKgKOiCsBm8HBosA12xgU8N3BbOTsBPsRZLwutqXYgIfpVpWQh6bRafeA==", "text_to_sort"=>"", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 80ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:49:26 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A0mzehqZl20Y31KpcPVSgc90HxN+zRMEDiArxSs+njr48ceB9pJN8VLWt3P9JDyKDvgURY7VjzFPkaEPX5QdWA==", "text_to_sort"=>"10, 40, 3, 2, 1, 3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 72ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:49:44 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dyy+hXur3UtyZPxFxWSzQDY26STiGUGK9Q3hIxhJXfqMlMp+l6AH1zhtGZ9Itd1L97richIB3b+0vGvpbOPemA==", "text_to_sort"=>"10 40 3 2 1 3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:50:32 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gSJpBCck5uLQpfiX/Ut2GubKT2l3bhvOHAB9OzWq1Wt6mh3/yy88fpqsHU1wmhgRJ0ZEP4d2h/tdsffxQQBWCQ==", "text_to_sort"=>"10 40 3 2 1 3", "commit"=>"Sortuj"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `split' for 10:Fixnum):
+  
+app/controllers/heapsort_controller.rb:7:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.6ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.3ms)
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:51:14 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gSJpBCck5uLQpfiX/Ut2GubKT2l3bhvOHAB9OzWq1Wt6mh3/yy88fpqsHU1wmhgRJ0ZEP4d2h/tdsffxQQBWCQ==", "text_to_sort"=>"10 40 3 2 1 3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 107ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:51:20 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7TvJYfrD9xjkFLINa2C/NyRw47APOvNy0kR6xcl8BE8Wg72aFsgthK4dV9fmsdE85fzo5v8ib0eT9fAPvdaHLQ==", "text_to_sort"=>"10 40 3 2 1 3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 66ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:52:42 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SKLqvmnZNM2uIs9Eb6iBNud0cDqljzy9uJtLjFZx5yKzGp5FhdLuUeQrKp7iee89Jvh7bFWXoIj5KsFGIttkQA==", "text_to_sort"=>"10 40 3 2 1 3", "commit"=>"Sortuj"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]=' for 10:Fixnum
+Did you mean?  []):
+  
+app/controllers/heapsort_controller.rb:58:in `maxheapify'
+app/controllers/heapsort_controller.rb:30:in `heapsort'
+app/controllers/heapsort_controller.rb:8:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.0ms)
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:53:09 +0100
+  
+SyntaxError (/home/pluszak/Desktop/ruby-app/app/app/controllers/heapsort_controller.rb:7: syntax error, unexpected &
+      arr.split(' ').map (&:to_i)
+                           ^):
+  
+app/controllers/heapsort_controller.rb:7: syntax error, unexpected &
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.0ms)
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 02:53:26 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SKLqvmnZNM2uIs9Eb6iBNud0cDqljzy9uJtLjFZx5yKzGp5FhdLuUeQrKp7iee89Jvh7bFWXoIj5KsFGIttkQA==", "text_to_sort"=>"10 40 3 2 1 3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 89ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:55:21 +0100
+Processing by HeapsortController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `map' for "":String
+Did you mean?  tap):
+  
+app/controllers/heapsort_controller.rb:8:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.4ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:59:40 +0100
+  
+SyntaxError (/home/pluszak/Desktop/ruby-app/app/app/controllers/heapsort_controller.rb:7: syntax error, unexpected tSTRING_DEND, expecting keyword_end):
+  
+app/controllers/heapsort_controller.rb:7: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.1ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 02:59:56 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 86ms (Views: 85.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 03:00:51 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NMG/vBtI/KBaVIp/5tubkwn1j2pa1j7kLQlgoMfmP5HPectH90MmPBBdb6VrCvWYyHmEPKrOotFsuOpqs0y88w==", "text_to_sort"=>"[10, 40, 3, 2, 1, 3]", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 117ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 03:01:19 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ddG0gye3otNch3tON7ut8OpXNoeCYWnWlB5HV62DBOiOacB4y7x4TxaOnpS6asP7K9s90XJ59ePVr82d2SmHig==", "text_to_sort"=>"[10, 40, 3, 2, 1, 3]", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 03:01:25 +0100
+Processing by HeapsortController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/heapsort_controller.rb:7:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.5ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.9ms)
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 03:01:43 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 77ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 03:01:47 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"imrvKSyv6REGwUyg/koy0tbIkJwL+EowpREM90zHXTVx0pvSwKQzjUzIqXpzm1zZF0Sbyvvg1gXkoIY9OG3eVw==", "text_to_sort"=>"[10, 40, 3, 2, 1, 3]", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 47ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 03:02:08 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 54ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 03:02:11 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"so5cZmPySCmifDN2S4gOKJPB7YAsxJ8EWTr7U+HfwitJNiidj/mSteh11qzGWWAjUk3m1tzcAzEYi3GZlXVBSQ==", "text_to_sort"=>"[10, 40, 3, 2, 1, 3]", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 65ms (Views: 64.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 03:05:59 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 79ms (Views: 78.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 03:06:06 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tee1xmX5ZYPWXIoMsAnZYOMqnD+WLcSTFUESF6UNwihOX8E9ifK/H5xVb9Y92LdrIqaXaWY1WKZU8Jjd0adBSg==", "text_to_sort"=>"10 40 3 2 1 3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 65ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 03:06:20 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7hMdprH771ujj9WLm7DfWNiyEFLVyDnyzkLGStq7WsYVq2ldXfA1x+mGMFEWYbFTGT4bBCXQpceP80yArhHZpA==", "text_to_sort"=>"10, 40, 3, 2, 1, 3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 03:06:29 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C3QkkTxNODm0XYjTTQp86WsHVPJJtdgLs2NsZpKwM6/wzFBq0Ebipf5UbQnA2xLiqotfpLmtRD7y0uas5hqwzQ==", "text_to_sort"=>"3,2,4,5,12", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 95ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 03:06:42 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AyW8bdgOkrMzMq+bkEBsCZp3AgwUS2aIRA7Q2FLxSxX4nciWNAVIL3k7SkEdkQICW/sJWuRT+r0Fv1oSJlvIdw==", "text_to_sort"=>"12,2,3,4,2", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 03:07:02 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ipLhXFEcyIxGcvMF8SqVEbJpWJoYZT1IsjQA08HG2iFxKpWnvRcSEAx7Ft98+/sac+VTzOh9oX3zhYoZtWxZQw==", "text_to_sort"=>"43,4,6,7,8", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 66ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 03:07:39 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 86ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 03:07:45 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"83/VqzkQ7dedS/qSi5dvkGvcVZAtRQqn0t2DnsTvTHIIx6FQ1Rs3S9dCH0gGRgGbqlBext1dlpKTbAlUsEXPEA==", "text_to_sort"=>"43,4,6,7,8", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 67ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 03:09:15 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 98ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 03:09:20 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZHceaBRblhcXwBCz4XvfgQ1hiq0HDxtS/2IFinkmxsOfz2qT+FBMi13J9WlsqrGKzO2B+/cXh2e+049ADYxFoQ==", "text_to_sort"=>"10, 40, 3, 2, 1, 3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 03:09:42 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 53ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 03:09:45 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V12QHgTcnaBh1LAv+6BC/4x8pEPctLALvLEv1DHaLGOs5eTl6NdHPCvdVfV2cSz0TfCvFSysLD79AKUeRXCvAQ==", "text_to_sort"=>"10 40 3 2 1 3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 91ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 03:09:48 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W/pDrVRK+ady4O1Q3xQJlW4WkT5bjWyGWrc6LuXJdhGgQjdWuEEjOzjpCIpSxWeer5qaaKuV8LMbBrDkkWP1cw==", "text_to_sort"=>"10, 40, 3, 2, 1, 3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+

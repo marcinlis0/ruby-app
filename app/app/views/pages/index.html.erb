@@ -4,10 +4,10 @@
   <!-- Hello Section -->
   <div class="row">
       <div class="col-lg-12">
-          <h1 class="page-header">Witaj</h2>
+          <h1 class="page-header">Witaj Użytkowniku spragniony wiedzy ! </h2>
       </div>
       <div class="col-md-12">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+          <p> Na tej stronie zapoznasz się z trzema ciekawymy algorytmami i przetestujesz ich działanie on-line !</p>
       </div>
   </div>
     <!-- /.row -->
@@ -31,6 +31,9 @@
                       Kody Huffmana to jedna z powszechnie stosowanych metod kompresji danych.
                       Kompresja ta polega na zastępowaniu znaków kompresowanego pliku krótszymi kodami (a ściślej ciągami bitów),
                       dzięki czemu wynikowy ciąg bitów jest znacznie krótszy od wejściowego.
+
+
+                      .
                     </p>
                     <%= link_to "Więcej", { controller: "huffman", action: "index" }, class: "btn btn-default" %>
                 </div>
@@ -39,22 +42,34 @@
         <div class="col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4><i class="fa fa-fw fa-gift"></i> Algorytm drugi</h4>
+                    <h4><i class="fa fa-fw fa-gift"></i>Sortowanie przez kopcowanie</h4>
                 </div>
                 <div class="panel-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                    <%= link_to "Więcej", { controller: "huffman", action: "index" }, class: "btn btn-default" %>
+                    <p>Podstawą algorytmu jest użycie kolejki priorytetowej zaimplementowanej w postaci binarnego kopca zupełnego.
+                      Zasadniczą zaletą kopców jest stały czas dostępu do elementu maksymalnego (lub minimalnego) oraz logarytmiczny czas wstawiania i usuwania elementów;
+                      ponadto łatwo można go implementować w postaci tablicy.
+                      Algorytm sortowania przez kopcowanie składa się z dwóch faz.
+                      W pierwszej sortowane elementy reorganizowane są w celu utworzenia kopca.
+                      W drugiej zaś dokonywane jest właściwe sortowanie.
+
+                    </p>
+                    <%= link_to "Więcej", { controller: "heapsort", action: "index" }, class: "btn btn-default" %>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4><i class="fa fa-fw fa-compass"></i> Algorytm trzeci</h4>
+                    <h4><i class="fa fa-fw fa-compass"></i>Algorytm Dijkstry</h4>
                 </div>
                 <div class="panel-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                    <%= link_to "Więcej", { controller: "huffman", action: "index" }, class: "btn btn-default" %>
+                    <p>Mając dany graf z wyróżnionym wierzchołkiem (źródłem) algorytm znajduje odległości
+                      od źródła do wszystkich pozostałych wierzchołków. Łatwo zmodyfikować go tak, aby szukał wyłącznie
+                      (najkrótszej) ścieżki do jednego ustalonego wierzchołka, po prostu przerywając działanie w momencie
+                      dojścia do wierzchołka docelowego, bądź transponując tablicę incydencji grafu.
+                      Algorytm Dijkstry znajduje w grafie wszystkie najkrótsze ścieżki pomiędzy wybranym wierzchołkiem a
+                      wszystkimi pozostałymi, przy okazji wyliczając również koszt przejścia każdej z tych ścieżek</p>
+                    <%= link_to "Więcej", { controller: "dijkstra", action: "index" }, class: "btn btn-default" %>
                 </div>
             </div>
         </div>

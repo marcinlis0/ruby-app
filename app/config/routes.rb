@@ -1,10 +1,18 @@
 Rails.application.routes.draw do
 
+  get 'dijkstra/index'
+
+  # get 'heapsort/index'
+
   root 'pages#index'
 
   get 'huffman', to: 'huffman#index'
 
   post 'huffman', to: 'huffman#index'
+
+  get 'heapsort', to: 'heapsort#index'
+
+  post 'heapsort', to: 'heapsort#index'
 
 
 
