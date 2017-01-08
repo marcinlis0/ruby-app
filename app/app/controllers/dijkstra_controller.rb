@@ -1,49 +1,45 @@
 class DijkstraController < ApplicationController
 
     def index
+      # w get zmiennej podanej w widoku
       @from_text_of_nodes = params[:text_of_nodes]
 
-        arr = @from_text_of_nodes.to_s.split(/,/).map(&:to_i)
+      #konwersja textu na array intow
+      arr = @from_text_of_nodes.to_s.split(/,/).map(&:to_i)
 
+      # spr czy liczba danych -> podzielna przez 3
        if arr.size % 3 != 0
         @code = "błąd"
         end
-        if arr.size % 3 == 0
-          @code = arr.size
-
+        if arr.size % 3 == 0 && arr.size != 0
         arraysize = 0
-      #  graph = Graph.new
-      #  (1..arr.size).each { |node| graph.push node }
+
+        #utworzenie nowego grafu
+       graph = Graph.new
+      (1..6).each { |node| graph.push node }
+
         while arraysize < arr.size
-        #  graph.make_edge arr[arraysize], arr[arraysize+1], arr[arraysize+2]
+        graph.make_edge arr[arraysize], arr[arraysize + 1], arr[arraysize + 2]
           arraysize += 3
         end
-        graph = Graph.new
-        (1..6).each { |node| graph.push node }
-        graph.make_edge 1, 2, 7
-        graph.make_edge 1, 3, 9
-        graph.make_edge 1, 6, 14
-        graph.make_edge 2, 3, 10
-        graph.make_edge 2, 4, 15
-        graph.make_edge 3, 4, 2
-        graph.make_edge 3, 6, 2
-        graph.make_edge 4, 5, 9
-        graph.make_edge 5, 6, 9
 
-        returnarr = graph.dijkstra(1).to_s.split(/,/).map(&:to_i)
+    #     graph = Graph.new
+    #    (1..6).each { |node| graph.push node }
+    #     graph.make_edge 1, 2, 7
+    #     graph.make_edge 1, 3, 9
+    #     graph.make_edge 1, 6, 14
+    #     graph.make_edge 2, 3, 10
+    #     graph.make_edge 2, 4, 15
+    #     graph.make_edge 3, 4, 2
+    #     graph.make_edge 3, 6, 2
+    #     graph.make_edge 4, 5, 9
+    #     graph.make_edge 5, 6, 9
 
+      returnarr = graph.dijkstra(1).to_s.split(/,/).map(&:to_i)
         @code = returnarr
-        #graph = Graph.new
-        #(1..6).each { |node| graph.push node }
+
       #   1,2,7,1,3,9,1,6,14,2,3,10,2,4,15,3,4,2,3,6,2,4,5,9,5,6,9
-end
-end
-
-    #    end
-    #  else
-    #    @code = arr
-
-
+    end
   end
 
 class Edge
@@ -157,3 +153,4 @@ end
 # p graph.neighbors(1)
 # p graph.dijkstra(1)
 #p graph.dijkstra(1)
+end

@@ -12102,3 +12102,528 @@ Processing by DijkstraController#index as HTML
 Completed 200 OK in 101ms (Views: 99.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-01-08 05:37:45 +0100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 596ms (Views: 578.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/huffman" for 127.0.0.1 at 2017-01-08 05:37:48 +0100
+Processing by HuffmanController#index as HTML
+  Rendering huffman/index.html.erb within layouts/application
+  Rendered huffman/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 83ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/huffman" for 127.0.0.1 at 2017-01-08 05:37:51 +0100
+Processing by HuffmanController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"udxSxEMzzIfnTFv3fJIeDGqE1G/ptVZ7yYqnusS+9rVCZCY/rzgWG61Fvi3xQ3AHqwjfORmtyk6IOy1wsBR11w==", "text_to_code"=>"2 3123", "commit"=>"Koduj"}
+  Rendering huffman/index.html.erb within layouts/application
+  Rendered huffman/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 52ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 05:37:56 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 05:37:59 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zBE0oqlYOpoJYTc0NRdGunClaGwwk01jJpngWvQyFEQ3qUBZRVPgBkNo0u64xiixsSljOsCL0VZnKGqQgJiXJg==", "text_to_sort"=>"123", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dijkstra" for 127.0.0.1 at 2017-01-08 05:38:07 +0100
+Processing by DijkstraController#index as HTML
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 05:38:08 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"508bgiUblhrDOTqRIaF+3axXxwBIIb7wBwXrTvEXM0Qc9295yRBMhokw30uscBDWbdvMVrg5IsVGtGGEhb2wJg==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 05:38:10 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WjNA09glHDBZ2+eRiT2boYUhyC58lHq/cDvDQpNSstihizQoNC7GrBPSAksE7PWqRK3DeIyM5ooxikmI5/gxug==", "text_of_nodes"=>"213", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 05:38:15 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FduQxrHL35FwdzA0FBvWXJY/VG5kvjP95p3Z5SHrEh3uY+Q9XcAFDTp+1e6ZyrhXV7NfOJSmr8inLFMvVUGRfw==", "text_of_nodes"=>"1,2,3", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 62ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-08 07:42:23 +0100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 84ms (Views: 83.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dijkstra" for 127.0.0.1 at 2017-01-08 07:42:41 +0100
+Processing by DijkstraController#index as HTML
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:42:45 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VQ1fcVonCD/QqWKczR86T6mfsK063FG4hmgf09WSbmqutSuKtizSo5qgh0ZAzlREaBO7+8rEzY3H2ZUZoTjtCA==", "text_of_nodes"=>"1,2,7,1,3,9,1,6,14,2,3,10,2,4,15,3,4,2,3,6,2,4,5,9,5,6,9", "commit"=>"Koduj"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (No path from 1 to 7):
+  
+app/controllers/dijkstra_controller.rb:134:in `get_path_recursively'
+app/controllers/dijkstra_controller.rb:127:in `get_path'
+app/controllers/dijkstra_controller.rb:119:in `block in dijkstra'
+app/controllers/dijkstra_controller.rb:119:in `each'
+app/controllers/dijkstra_controller.rb:119:in `dijkstra'
+app/controllers/dijkstra_controller.rb:38:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.9ms)
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:43:03 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VQ1fcVonCD/QqWKczR86T6mfsK063FG4hmgf09WSbmqutSuKtizSo5qgh0ZAzlREaBO7+8rEzY3H2ZUZoTjtCA==", "text_of_nodes"=>"1,2,7,1,3,9,1", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:43:46 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rC6QJ+GEyZtRWvsnVP+1n2p8F2IpD0dd7FNN4hNI8LFXluTcDY8TBxtTHv3ZLtuUq/AcNNkX22it4scoZ+Jz0w==", "text_of_nodes"=>"1,2,3,4,5,6", "commit"=>"Koduj"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (No path from 1 to 3):
+  
+app/controllers/dijkstra_controller.rb:134:in `get_path_recursively'
+app/controllers/dijkstra_controller.rb:127:in `get_path'
+app/controllers/dijkstra_controller.rb:119:in `block in dijkstra'
+app/controllers/dijkstra_controller.rb:119:in `each'
+app/controllers/dijkstra_controller.rb:119:in `dijkstra'
+app/controllers/dijkstra_controller.rb:38:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (45.3ms)
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:43:53 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rC6QJ+GEyZtRWvsnVP+1n2p8F2IpD0dd7FNN4hNI8LFXluTcDY8TBxtTHv3ZLtuUq/AcNNkX22it4scoZ+Jz0w==", "text_of_nodes"=>"1,2,7,1,3,9,1,6,14,2,3,10,2,4,15,3,4,2,3,6,2,4,5,9,5,6,9", "commit"=>"Koduj"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (No path from 1 to 7):
+  
+app/controllers/dijkstra_controller.rb:134:in `get_path_recursively'
+app/controllers/dijkstra_controller.rb:127:in `get_path'
+app/controllers/dijkstra_controller.rb:119:in `block in dijkstra'
+app/controllers/dijkstra_controller.rb:119:in `each'
+app/controllers/dijkstra_controller.rb:119:in `dijkstra'
+app/controllers/dijkstra_controller.rb:38:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.0ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (59.6ms)
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:45:23 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rC6QJ+GEyZtRWvsnVP+1n2p8F2IpD0dd7FNN4hNI8LFXluTcDY8TBxtTHv3ZLtuUq/AcNNkX22it4scoZ+Jz0w==", "text_of_nodes"=>"1,2,7,1,3,9,1,6,14,2,3,10,2,4,15,3,4,2,3,6,2,4,5,9,5,6,9", "commit"=>"Koduj"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/dijkstra_controller.rb:22:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.7ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.8ms)
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:45:54 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rC6QJ+GEyZtRWvsnVP+1n2p8F2IpD0dd7FNN4hNI8LFXluTcDY8TBxtTHv3ZLtuUq/AcNNkX22it4scoZ+Jz0w==", "text_of_nodes"=>"1,2,7,1,3,9,1,6,14,2,3,10,2,4,15,3,4,2,3,6,2,4,5,9,5,6,9", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:45:56 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6GQSklEFL9gjD7jFWwfy9oc+lZK/raAiJPilL6ni/2sT3GZpvQ71RGkGXR/W1pz9RrKexE+1PBdlSS/l3Uh8CQ==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:47:21 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LEZVILsXmpc6Uq54crQUTrcuywU9H5db2jP6W3GujWnX/iHbVxxAC3BbS6L/ZXpFdqLAU80HC26bgnCRBQQOCw==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:47:26 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RoFoYkq3mUnOLe3fl0ZQkoVz0kvEKLOELUqF5aWTgdG9ORyZprxD1YQkCAUalz6ZRP/ZHTQwL7Fs+w8v0TkCsw==", "text_of_nodes"=>"1,2,7,1,3,9,1,6,14,2,3,10,2,4,15,3,4,2,3,6,2,4,5,9,5,6,9", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:48:11 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ei/Lk1RlcidZTjj9p7Z0OZT7NKKQgL9FTCspwoHkn1Tpl79ouG6ouxNH3ScqZxoyVXc/9GCYI3ANmqMI9U4cNg==", "text_of_nodes"=>"1,2,7,1,3,9,1,6,14,2,3,10,2,4,15,3,4,2,3,6,2,4,5,9,5,6,9", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:48:18 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y1TekVDemugDHKj26cJMQgZBbqG5EpU6tnynEDiIUfuY7KpqvNVAdEkVTSxkEyJJx81l90kKCQ/3zS3aTCLSmQ==", "text_of_nodes"=>"1,2,7,1,3,9,1,6,14,2,3,10,2,4,15,3,4,2,3,6,2,4,5,9,5,6,9", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:48:20 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oy8pWj2R57MdR2oaBiF4FZUr9gwLGb7NgL9hHR8vOBRYl12h0Zo9L1dOj8CL8BYeVKf9WvsBIvjBDuvXa4W7dg==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (No path from 1 to 2):
+  
+app/controllers/dijkstra_controller.rb:133:in `get_path_recursively'
+app/controllers/dijkstra_controller.rb:126:in `get_path'
+app/controllers/dijkstra_controller.rb:118:in `block in dijkstra'
+app/controllers/dijkstra_controller.rb:118:in `each'
+app/controllers/dijkstra_controller.rb:118:in `dijkstra'
+app/controllers/dijkstra_controller.rb:38:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.2ms)
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:49:23 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oy8pWj2R57MdR2oaBiF4FZUr9gwLGb7NgL9hHR8vOBRYl12h0Zo9L1dOj8CL8BYeVKf9WvsBIvjBDuvXa4W7dg==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (No path from 1 to 2):
+  
+app/controllers/dijkstra_controller.rb:133:in `get_path_recursively'
+app/controllers/dijkstra_controller.rb:126:in `get_path'
+app/controllers/dijkstra_controller.rb:118:in `block in dijkstra'
+app/controllers/dijkstra_controller.rb:118:in `each'
+app/controllers/dijkstra_controller.rb:118:in `dijkstra'
+app/controllers/dijkstra_controller.rb:38:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.2ms)
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:49:40 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oy8pWj2R57MdR2oaBiF4FZUr9gwLGb7NgL9hHR8vOBRYl12h0Zo9L1dOj8CL8BYeVKf9WvsBIvjBDuvXa4W7dg==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (No path from 1 to 2):
+  
+app/controllers/dijkstra_controller.rb:133:in `get_path_recursively'
+app/controllers/dijkstra_controller.rb:126:in `get_path'
+app/controllers/dijkstra_controller.rb:118:in `block in dijkstra'
+app/controllers/dijkstra_controller.rb:118:in `each'
+app/controllers/dijkstra_controller.rb:118:in `dijkstra'
+app/controllers/dijkstra_controller.rb:38:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.4ms)
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:49:46 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oy8pWj2R57MdR2oaBiF4FZUr9gwLGb7NgL9hHR8vOBRYl12h0Zo9L1dOj8CL8BYeVKf9WvsBIvjBDuvXa4W7dg==", "text_of_nodes"=>"0", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:50:01 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cbpf5isxLdUHnd2e9FpELtaP9Rf1d0FYA1lNlEU6ERXyAisdxzr3SU2UOER5iyolFwP+QQVv3W1C6MdeMZCSdw==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (No path from 1 to 2):
+  
+app/controllers/dijkstra_controller.rb:133:in `get_path_recursively'
+app/controllers/dijkstra_controller.rb:126:in `get_path'
+app/controllers/dijkstra_controller.rb:118:in `block in dijkstra'
+app/controllers/dijkstra_controller.rb:118:in `each'
+app/controllers/dijkstra_controller.rb:118:in `dijkstra'
+app/controllers/dijkstra_controller.rb:38:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.0ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.6ms)
+Started GET "/dijkstra" for 127.0.0.1 at 2017-01-08 07:51:10 +0100
+Processing by DijkstraController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (No path from 1 to 2):
+  
+app/controllers/dijkstra_controller.rb:133:in `get_path_recursively'
+app/controllers/dijkstra_controller.rb:126:in `get_path'
+app/controllers/dijkstra_controller.rb:118:in `block in dijkstra'
+app/controllers/dijkstra_controller.rb:118:in `each'
+app/controllers/dijkstra_controller.rb:118:in `dijkstra'
+app/controllers/dijkstra_controller.rb:38:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (45.7ms)
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:51:14 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oy8pWj2R57MdR2oaBiF4FZUr9gwLGb7NgL9hHR8vOBRYl12h0Zo9L1dOj8CL8BYeVKf9WvsBIvjBDuvXa4W7dg==", "text_of_nodes"=>"0", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 41ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:51:15 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z9LO7BtrthVrip6YCjje+ac+FPj0CfQR1g8H5I6EEFWcaroX92BsiSGDe0KH6bDyZrIfrgQRaCSXvo0u+i6TNw==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (No path from 1 to 2):
+  
+app/controllers/dijkstra_controller.rb:133:in `get_path_recursively'
+app/controllers/dijkstra_controller.rb:126:in `get_path'
+app/controllers/dijkstra_controller.rb:118:in `block in dijkstra'
+app/controllers/dijkstra_controller.rb:118:in `each'
+app/controllers/dijkstra_controller.rb:118:in `dijkstra'
+app/controllers/dijkstra_controller.rb:38:in `index'
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/pluszak/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.1ms)
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:51:34 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z9LO7BtrthVrip6YCjje+ac+FPj0CfQR1g8H5I6EEFWcaroX92BsiSGDe0KH6bDyZrIfrgQRaCSXvo0u+i6TNw==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 51ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:51:35 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y3NzQgixj6iX7mRyfNWXsPnrXVqydz1cZiwdP39vHvswywe55LpVNN3ngajxBPm7OGdWDEJvoWknnZf1C8WdmQ==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:51:36 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XGlinKV9MJOvx/3X1btvfRIDZRgWwBMrMgQr1trxUD+n0RZnSXbqD+XOGA1YagF2049uTubYjx5ztaEcrlvTXQ==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 59ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:51:36 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kM5aaHdKytdyfS2BY621XpMLw5Z1vbl2Vo3t3/dCYs9rdi6Tm0EQSzh0yFvufNtVUofIwIWlJUMXPGcVg+jhrQ==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:51:37 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yT8lMQGkKv4DktUKe79FuBYAMIueUIlexbpcPgh7lJsyh1HK7a/wYkmbMND2biuz14w73W5IFWuEC9b0fNEX+Q==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:51:37 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BQkgA3Qt9LxGvdeyZ+e9hCsRrM0CJA2Zssbt8nAbs/L+sVT4mCYuIAy0MmjqNtOP6p2nm/I8kazzd2c4BLEwkA==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 49ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:51:38 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JbPkSUS0qpiGIVkapBMtSGlTdEad/KvxyuFk4TsF0g7eC5CyqL9wBMwovMApwkNDqN9/EG3kN8SLUO4rT69RbA==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:51:38 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wyPexb/l0RYmHcFxRdqRLnH9MajOFlCOD2D/JbQBY0U4m6o+U+4LimwUJKvIC/8lsHE6/j4OzLtO0XXvwKvgJw==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 57ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dijkstra" for 127.0.0.1 at 2017-01-08 07:51:39 +0100
+Processing by DijkstraController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uT8YNO4+kSGWwoVV911DNCoAWTZ9vOTi5gnIk0mlN5lCh2zPAjVLvdzLYI96jC0/64xSYI2keNenuEJZPQ+0+w==", "text_of_nodes"=>"", "commit"=>"Koduj"}
+  Rendering dijkstra/index.html.erb within layouts/application
+  Rendered dijkstra/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-08 07:51:42 +0100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-08 07:53:58 +0100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/huffman" for 127.0.0.1 at 2017-01-08 07:54:10 +0100
+Processing by HuffmanController#index as HTML
+  Rendering huffman/index.html.erb within layouts/application
+  Rendered huffman/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 57ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 07:54:16 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 46ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 07:54:31 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"benmW5mpnqMx2mH4Rwf0i4PX9WpFHN8uMVT25H5fMkKWUZKgdaJEP3vThCLK1pqAQlv+PLUEQxtw5XwuCvWxIA==", "text_to_sort"=>"12, a, gfgfg, 23", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 07:55:20 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pl7QnHS0Y4qyRdWogThKJ5q3hqRaH1qZs7JZxIK2pNxd5qRnmL+5FvhMMHIM6SQsWzuN8qoHxqzyA9MO9hwnvg==", "text_to_sort"=>"a,b,d,x,e,c,r,a", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 07:55:33 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fQTRGWGKwAVKZNCz/1d+rS4BhPOPghXKE7aeceP2cGiGvKXijYEamQBtNWlyhhCm742PpX+aif9SBxS7l1zzCg==", "text_to_sort"=>"1,3,10,100,40,5,7", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 56ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heapsort" for 127.0.0.1 at 2017-01-08 07:56:01 +0100
+Processing by HeapsortController#index as HTML
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 07:56:06 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v4nP02PRYTn6yruecFnxIPkV11JCF5lRznADg6E0eO1EMbsoj9q7pbDDXkT9iJ8rOJncBLIPBWSPwYlJ1Z77jw==", "text_to_sort"=>"a,b,d,x,e,c,r,a", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heapsort" for 127.0.0.1 at 2017-01-08 07:56:10 +0100
+Processing by HeapsortController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"crcgReDNWMSjzxbqGW7rD+xIz9AyRiL8lkx2v7P9iMGJD1S+DMaCWOnG8zCUv4UELcTEhsJevsnX/fx1x1cLow==", "text_to_sort"=>"10, 40, 3, 2, 1, 3", "commit"=>"Sortuj"}
+  Rendering heapsort/index.html.erb within layouts/application
+  Rendered heapsort/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 47ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+

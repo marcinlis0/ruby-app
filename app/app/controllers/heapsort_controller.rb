@@ -1,26 +1,14 @@
 class HeapsortController < ApplicationController
-  def index
+  def index()
     @from_text_to_sort = params[:text_to_sort]
-  
-      arr = @from_text_to_sort.to_s.split(/,/).map(&:to_i)
+
+      arr = @from_text_to_sort.to_s.split(/,/)
 
     #  arr = [10, 40, 3, 2, 1, 3]
       @sorted = heapsort(arr)
     end
 
-    def get_code(text)
-      code = ''
-      nodes = encrypt(text)
-      text.each_char do |chr|
-        nodes.each do |n|
-          if chr == n.instance_variable_get(:@value)
-            code += n.instance_variable_get(:@code)
-            break
-          end
-        end
-      end
-      code
-    end
+
 
   def heapsort(input_array)
 
