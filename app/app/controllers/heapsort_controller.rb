@@ -2,7 +2,7 @@ class HeapsortController < ApplicationController
   def index()
     @from_text_to_sort = params[:text_to_sort]
 
-      arr = @from_text_to_sort.to_s.split(/,/)
+      arr = @from_text_to_sort.to_s.split(/,/).map(&:to_i)
 
     #  arr = [10, 40, 3, 2, 1, 3]
       @sorted = heapsort(arr)
